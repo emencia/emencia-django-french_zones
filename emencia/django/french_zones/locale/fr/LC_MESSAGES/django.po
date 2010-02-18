@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: emencia.django.french_zones\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-18 17:20+0100\n"
+"PO-Revision-Date: 2010-02-18 17:22+0100\n"
+"Last-Translator: Fantomas <Fantomas42@gmail.com>\n"
+"Language-Team: fr <fantomas42@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: models.py:6
+#: models.py:20
+msgid "official name"
+msgstr "nom officiel"
+
+#: models.py:12
+msgid "Region"
+msgstr "Région"
+
+#: models.py:13
+msgid "Regions"
+msgstr "Régions"
+
+#: models.py:17
+msgid "region"
+msgstr "région"
+
+#: models.py:19
+msgid "code"
+msgstr "code"
+
+#: models.py:26
+msgid "Department"
+msgstr "Département"
+
+#: models.py:27
+msgid "Departments"
+msgstr "Départments"
+
