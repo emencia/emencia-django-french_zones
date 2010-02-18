@@ -1,0 +1,15 @@
+*.orig
+*.rej
+*~
+*.pyc
+.installed.cfg
+emencia.django.french_zones.egg-info/*
+lib/*
+include/*
+bin/*
+eggs/*
+parts/*
+develop-eggs/*
+downloads/*
+src_eggs/*
+
