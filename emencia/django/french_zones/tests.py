@@ -26,10 +26,10 @@ class UtilsTestCase(TestCase):
         self.assertRaises(ValueError, get_region_from_postal_code, '')
         self.assertRaises(ValueError, get_region_from_postal_code, '1234')
 
-        nord_pas_de_calais = Department.objects.get(pk='31')
-        ile_de_france = Department.objects.get(pk='11')
+        nord_pas_de_calais = Region.objects.get(pk='31')
+        ile_de_france = Region.objects.get(pk='11')
         corse = Region.objects.get(pk='94')
-        guadeloupe = Department.objects.get(pk='01')
+        guadeloupe = Region.objects.get(pk='01')
 
         self.assertEquals(get_region_from_postal_code('62138'), nord_pas_de_calais)
         self.assertEquals(get_region_from_postal_code('75012'), ile_de_france)
