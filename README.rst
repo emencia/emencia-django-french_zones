@@ -4,6 +4,8 @@ Emencia Django French Zones
 
 French regions and departments utilities for your Django projects.
 
+.. contents::
+
 Installation
 ============
 
