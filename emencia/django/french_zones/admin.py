@@ -10,7 +10,7 @@ class DepartmentInline(admin.StackedInline):
 
 class RegionAdmin(admin.ModelAdmin):
     search_fields = ('name', 'code')
-    list_display = ('name', 'departments')
+    list_display = ('name', 'code', 'departments')
     fields = ('code', 'name',)
     inlines = [DepartmentInline]
     actions_on_top = False
