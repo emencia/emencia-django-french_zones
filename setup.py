@@ -29,7 +29,7 @@ setup(name='emencia.django.french_zones',
       install_requires=[
           'setuptools',
       ],
-      entry_points='''
+      entry_points="""
       # -*- Entry points: -*-
-      ''',
+      """,
       )
