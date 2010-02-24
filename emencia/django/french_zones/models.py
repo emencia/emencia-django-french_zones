@@ -10,8 +10,8 @@ class Region(models.Model):
         return self.name
 
     class Meta:
-        verbose_name = _('Region')
-        verbose_name_plural = _('Regions')
+        verbose_name = _('region')
+        verbose_name_plural = _('regions')
         ordering = ('name',)
 
 class Department(models.Model):
@@ -24,8 +24,8 @@ class Department(models.Model):
         return self.name
 
     class Meta:
-        verbose_name = _('Department')
-        verbose_name_plural = _('Departments')
+        verbose_name = _('department')
+        verbose_name_plural = _('departments')
         ordering = ('code',)
 
 

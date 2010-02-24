@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emencia.django.french_zones\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-18 17:20+0100\n"
-"PO-Revision-Date: 2010-02-18 17:22+0100\n"
+"POT-Creation-Date: 2010-02-24 10:23+0100\n"
+"PO-Revision-Date: 2010-02-24 10:24+0100\n"
 "Last-Translator: Fantomas <Fantomas42@gmail.com>\n"
 "Language-Team: fr <fantomas42@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -19,31 +19,41 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: models.py:6
-#: models.py:20
+msgid "code INSEE"
+msgstr "code INSEE"
+
+#: models.py:7
+#: models.py:21
 msgid "official name"
 msgstr "nom officiel"
 
-#: models.py:12
-msgid "Region"
-msgstr "Région"
-
 #: models.py:13
-msgid "Regions"
-msgstr "Régions"
-
-#: models.py:17
+#: models.py:18
 msgid "region"
 msgstr "région"
 
-#: models.py:19
+#: models.py:14
+msgid "regions"
+msgstr "régions"
+
+#: models.py:20
 msgid "code"
 msgstr "code"
 
-#: models.py:26
-msgid "Department"
-msgstr "Département"
-
 #: models.py:27
-msgid "Departments"
-msgstr "Départments"
+msgid "department"
+msgstr "département"
+
+#: models.py:28
+msgid "departments"
+msgstr "départments"
+
+#: utils.py:10
+msgid "Invalid postal code"
+msgstr "Code postal invalide"
+
+#~ msgid "Region"
+#~ msgstr "Région"
+#~ msgid "Regions"
+#~ msgstr "Régions"
 
