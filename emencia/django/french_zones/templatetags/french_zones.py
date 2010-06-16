@@ -18,7 +18,7 @@ class PostalCodeSetterNode(Node):
     def render(self, context):
         try:
             context[self.varname] = self.process(self.postal_code.resolve(context))
-        except VariableDoesNotExist, ValueError:
+        except (VariableDoesNotExist, ValueError):
             pass
         return ''
 
