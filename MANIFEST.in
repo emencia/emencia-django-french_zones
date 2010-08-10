@@ -1,0 +1,4 @@
+include README.rst
+recursive-include docs *
+recursive-include emencia/django/french_zones/fixtures *.json
+recursive-include emencia/django/french_zones/locale *
