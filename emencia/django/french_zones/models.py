@@ -5,7 +5,7 @@ from django.utils.translation import ugettext_lazy as _
 class Region(models.Model):
     code = models.CharField(_('code INSEE'), max_length=2, primary_key=True)
     name = models.CharField(_('official name'), max_length=128)
-    slug = models.SlugField(max_length=200, blank=True)
+    slug = models.SlugField(max_length=128, blank=True)
 
     def __unicode__(self):
         return self.name
@@ -20,7 +20,7 @@ class Department(models.Model):
 
     code = models.CharField(_('code'), max_length=3, primary_key=True)
     name = models.CharField(_('official name'), max_length=128)
-    slug = models.SlugField(max_length=200, blank=True)
+    slug = models.SlugField(max_length=128, blank=True)
 
     def __unicode__(self):
         return self.name
