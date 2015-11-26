@@ -21,6 +21,6 @@ def get_region_from_postal_code(postal_code):
     """Return the Department model associated to a postal code"""
     return get_department_from_postal_code(postal_code).region
 
-
-
-        
+def get_region_2016_from_postal_code(postal_code):
+    """Return the new 2016 region associated with a postal code"""
+    return get_department_from_postal_code(postal_code).region.region_2016
