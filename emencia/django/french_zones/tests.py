@@ -7,6 +7,7 @@ from emencia.django.french_zones.utils import get_region_from_postal_code
 from emencia.django.french_zones.utils import get_region_2016_from_postal_code
 from emencia.django.french_zones.utils import get_department_from_postal_code
 
+
 class UtilsTestCase(TestCase):
 
     def test_get_department_from_postal_code(self):
