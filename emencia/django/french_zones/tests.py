@@ -1,9 +1,10 @@
 """Unit tests for emencia.django.french_zones"""
 from django.test import TestCase
 
-from emencia.django.french_zones.models import Region
+from emencia.django.french_zones.models import Region, Region2016
 from emencia.django.french_zones.models import Department
 from emencia.django.french_zones.utils import get_region_from_postal_code
+from emencia.django.french_zones.utils import get_region_2016_from_postal_code
 from emencia.django.french_zones.utils import get_department_from_postal_code
 
 class UtilsTestCase(TestCase):
@@ -36,3 +37,22 @@ class UtilsTestCase(TestCase):
         self.assertEquals(get_region_from_postal_code('20600'), corse)
         self.assertEquals(get_region_from_postal_code('97105'), guadeloupe)
 
+    def test_get_region2016_from_postal_code(self):
+        self.assertRaises(ValueError, get_region_2016_from_postal_code, '')
+        self.assertRaises(ValueError, get_region_2016_from_postal_code, '1234')
+
+        nord_pas_de_calais_picardie = Region2016.objects.get(pk='32')
+        ile_de_france = Region2016.objects.get(pk='11')
+        corse = Region2016.objects.get(pk='94')
+        guadeloupe = Region2016.objects.get(pk='01')
+        aquitaine_limousin_poitou_charentes = Region2016.objects.get(pk='75')
+
+        self.assertEquals(get_region_2016_from_postal_code('62138'),
+                          nord_pas_de_calais_picardie)
+        self.assertEquals(get_region_2016_from_postal_code('75012'),
+                          ile_de_france)
+        self.assertEquals(get_region_2016_from_postal_code('20600'), corse)
+        self.assertEquals(get_region_2016_from_postal_code('97105'),
+                          guadeloupe)
+        self.assertEquals(get_region_2016_from_postal_code('23001'),
+                          aquitaine_limousin_poitou_charentes)
