@@ -1,8 +1,8 @@
 """Utils for emencia.django.french_zones"""
 from django.utils.translation import ugettext as _
 
-from emencia.django.french_zones.models import Region
 from emencia.django.french_zones.models import Department
+
 
 def get_department_from_postal_code(postal_code):
     """Return the Region model associated to a postal code"""
@@ -11,16 +11,16 @@ def get_department_from_postal_code(postal_code):
 
     code = postal_code[:2]
     if code == '20':
-        code =  '2A'
+        code = '2A'
     if code == '97':
         code = postal_code[:3]
-    
+
     return Department.objects.get(code=code)
 
 def get_region_from_postal_code(postal_code):
     """Return the Department model associated to a postal code"""
     return get_department_from_postal_code(postal_code).region
 
-
-
-        
+def get_region_2016_from_postal_code(postal_code):
+    """Return the new 2016 region associated with a postal code"""
+    return get_department_from_postal_code(postal_code).region.region_2016

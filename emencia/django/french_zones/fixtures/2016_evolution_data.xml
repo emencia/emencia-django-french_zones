@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object pk="42" model="french_zones.region">
+    <field type="CharField" name="name">Alsace</field>
+  </object>
+  <object pk="72" model="french_zones.region">
+    <field type="CharField" name="name">Aquitaine</field>
+  </object>
+  <object pk="83" model="french_zones.region">
+    <field type="CharField" name="name">Auvergne</field>
+  </object>
+  <object pk="25" model="french_zones.region">
+    <field type="CharField" name="name">Basse-Normandie</field>
+  </object>
+  <object pk="26" model="french_zones.region">
+    <field type="CharField" name="name">Bourgogne</field>
+  </object>
+  <object pk="53" model="french_zones.region">
+    <field type="CharField" name="name">Bretagne</field>
+  </object>
+  <object pk="24" model="french_zones.region">
+    <field type="CharField" name="name">Centre</field>
+  </object>
+  <object pk="21" model="french_zones.region">
+    <field type="CharField" name="name">Champagne-Ardenne</field>
+  </object>
+  <object pk="94" model="french_zones.region">
+    <field type="CharField" name="name">Corse</field>
+  </object>
+  <object pk="43" model="french_zones.region">
+    <field type="CharField" name="name">Franche-Comté</field>
+  </object>
+  <object pk="01" model="french_zones.region">
+    <field type="CharField" name="name">Guadeloupe</field>
+  </object>
+  <object pk="03" model="french_zones.region">
+    <field type="CharField" name="name">Guyane</field>
+  </object>
+  <object pk="23" model="french_zones.region">
+    <field type="CharField" name="name">Haute-Normandie</field>
+  </object>
+  <object pk="11" model="french_zones.region">
+    <field type="CharField" name="name">Ile-de-France</field>
+  </object>
+  <object pk="04" model="french_zones.region">
+    <field type="CharField" name="name">La Réunion</field>
+  </object>
+  <object pk="91" model="french_zones.region">
+    <field type="CharField" name="name">Languedoc-Rousillon</field>
+  </object>
+  <object pk="74" model="french_zones.region">
+    <field type="CharField" name="name">Limousin</field>
+  </object>
+  <object pk="41" model="french_zones.region">
+    <field type="CharField" name="name">Lorraine</field>
+  </object>
+  <object pk="02" model="french_zones.region">
+    <field type="CharField" name="name">Martinique</field>
+  </object>
+  <object pk="73" model="french_zones.region">
+    <field type="CharField" name="name">Midi-Pyrénées</field>
+  </object>
+  <object pk="31" model="french_zones.region">
+    <field type="CharField" name="name">Nord-Pas-de-Calais</field>
+  </object>
+  <object pk="52" model="french_zones.region">
+    <field type="CharField" name="name">Pays de la Loire</field>
+  </object>
+  <object pk="22" model="french_zones.region">
+    <field type="CharField" name="name">Picardie</field>
+  </object>
+  <object pk="54" model="french_zones.region">
+    <field type="CharField" name="name">Poitou-Charentes</field>
+  </object>
+  <object pk="93" model="french_zones.region">
+    <field type="CharField" name="name">Provence-Alpes-Côte d'Azur</field>
+  </object>
+  <object pk="82" model="french_zones.region">
+    <field type="CharField" name="name">Rhône-Alpes</field>
+  </object>
+
+
+  <object pk="44" model="french_zones.region2016">
+    <field type="CharField" name="name">Alsace-Champagne-Ardenne-Lorraine</field>
+  </object>
+  <object pk="75" model="french_zones.region2016">
+    <field type="CharField" name="name">Aquitaine-Limousin-Poitou-Charentes</field>
+  </object>
+  <object pk="84" model="french_zones.region2016">
+    <field type="CharField" name="name">Auvergne-Rhône-Alpes</field>
+  </object>
+  <object pk="27" model="french_zones.region2016">
+    <field type="CharField" name="name">Bourgogne-Franche-Comté</field>
+  </object>
+  <object pk="53" model="french_zones.region2016">
+    <field type="CharField" name="name">Bretagne</field>
+  </object>
+  <object pk="24" model="french_zones.region2016">
+    <field type="CharField" name="name">Centre-Val de Loire</field>
+  </object>
+  <object pk="94" model="french_zones.region2016">
+    <field type="CharField" name="name">Corse</field>
+  </object>
+  <object pk="11" model="french_zones.region2016">
+    <field type="CharField" name="name">Île-de-France</field>
+  </object>
+  <object pk="76" model="french_zones.region2016">
+    <field type="CharField" name="name">Languedoc-Roussillon-Midi-Pyrénées</field>
+  </object>
+  <object pk="32" model="french_zones.region2016">
+    <field type="CharField" name="name">Nord-Pas-de-Calais-Picardie</field>
+  </object>
+  <object pk="28" model="french_zones.region2016">
+    <field type="CharField" name="name">Normandie</field>
+  </object>
+  <object pk="52" model="french_zones.region2016">
+    <field type="CharField" name="name">Pays de la Loire</field>
+  </object>
+  <object pk="93" model="french_zones.region2016">
+    <field type="CharField" name="name">Provence-Alpes-Côte d'Azur</field>
+  </object>
+  <object pk="01" model="french_zones.region2016">
+    <field type="CharField" name="name">Guadeloupe</field>
+  </object>
+  <object pk="02" model="french_zones.region2016">
+    <field type="CharField" name="name">Martinique</field>
+  </object>
+  <object pk="03" model="french_zones.region2016">
+    <field type="CharField" name="name">Guyane</field>
+  </object>
+  <object pk="04" model="french_zones.region2016">
+    <field type="CharField" name="name">La Réunion</field>
+  </object>
+  <object pk="06" model="french_zones.region2016">
+    <field type="CharField" name="name">Mayotte</field>
+  </object>
+
+
+  <object pk="01" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">82</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">84</field>
+    <field type="CharField" name="name">Ain</field>
+  </object>
+  <object pk="02" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">22</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">32</field>
+    <field type="CharField" name="name">Aisne</field>
+  </object>
+  <object pk="03" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">83</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">84</field>
+    <field type="CharField" name="name">Allier</field>
+  </object>
+  <object pk="04" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">93</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">93</field>
+    <field type="CharField" name="name">Alpes-de-Haute-Provence</field>
+  </object>
+  <object pk="05" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">93</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">93</field>
+    <field type="CharField" name="name">Hautes-Alpes</field>
+  </object>
+  <object pk="06" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">93</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">93</field>
+    <field type="CharField" name="name">Alpes-Maritimes</field>
+  </object>
+  <object pk="07" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">82</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">84</field>
+    <field type="CharField" name="name">Ardèche</field>
+  </object>
+  <object pk="08" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">21</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">84</field>
+    <field type="CharField" name="name">Ardennes</field>
+  </object>
+  <object pk="09" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">73</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">76</field>
+    <field type="CharField" name="name">Ariège</field>
+  </object>
+  <object pk="10" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">21</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">44</field>
+    <field type="CharField" name="name">Aube</field>
+  </object>
+  <object pk="11" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">91</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">76</field>
+    <field type="CharField" name="name">Aude</field>
+  </object>
+  <object pk="12" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">73</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">76</field>
+    <field type="CharField" name="name">Aveyron</field>
+  </object>
+  <object pk="13" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">93</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">93</field>
+    <field type="CharField" name="name">Bouches-du-Rhône</field>
+  </object>
+  <object pk="14" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">25</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">28</field>
+    <field type="CharField" name="name">Calvados</field>
+  </object>
+  <object pk="15" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">83</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">84</field>
+    <field type="CharField" name="name">Cantal</field>
+  </object>
+  <object pk="16" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">54</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">75</field>
+    <field type="CharField" name="name">Charente</field>
+  </object>
+  <object pk="17" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">54</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">75</field>
+    <field type="CharField" name="name">Charente-Maritime</field>
+  </object>
+  <object pk="18" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">24</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">24</field>
+    <field type="CharField" name="name">Cher</field>
+  </object>
+  <object pk="19" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">74</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">75</field>
+    <field type="CharField" name="name">Corrèze</field>
+  </object>
+  <object pk="21" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">26</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">27</field>
+    <field type="CharField" name="name">Côte-d'Or</field>
+  </object>
+  <object pk="22" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">53</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">53</field>
+    <field type="CharField" name="name">Côtes-d'Armor</field>
+  </object>
+  <object pk="23" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">74</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">75</field>
+    <field type="CharField" name="name">Creuse</field>
+  </object>
+  <object pk="24" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">72</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">75</field>
+    <field type="CharField" name="name">Dordogne</field>
+  </object>
+  <object pk="25" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">43</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">27</field>
+    <field type="CharField" name="name">Doubs</field>
+  </object>
+  <object pk="26" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">82</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">84</field>
+    <field type="CharField" name="name">Drôme</field>
+  </object>
+  <object pk="27" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">23</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">28</field>
+    <field type="CharField" name="name">Eure</field>
+  </object>
+  <object pk="28" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">24</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">24</field>
+    <field type="CharField" name="name">Eure-et-Loire</field>
+  </object>
+  <object pk="29" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">53</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">53</field>
+    <field type="CharField" name="name">Finistère</field>
+  </object>
+  <object pk="2A" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">94</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">94</field>
+    <field type="CharField" name="name">Corse-du-Sud</field>
+  </object>
+  <object pk="2B" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">94</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">94</field>
+    <field type="CharField" name="name">Haute-Corse</field>
+  </object>
+  <object pk="30" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">91</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">76</field>
+    <field type="CharField" name="name">Gard</field>
+  </object>
+  <object pk="31" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">73</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">76</field>
+    <field type="CharField" name="name">Haute-Garonne</field>
+  </object>
+  <object pk="32" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">73</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">76</field>
+    <field type="CharField" name="name">Gers</field>
+  </object>
+  <object pk="33" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">72</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">75</field>
+    <field type="CharField" name="name">Gironde</field>
+  </object>
+  <object pk="34" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">91</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">76</field>
+    <field type="CharField" name="name">Hérault</field>
+  </object>
+  <object pk="35" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">53</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">53</field>
+    <field type="CharField" name="name">Ille-et-Vilaine</field>
+  </object>
+  <object pk="36" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">24</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">24</field>
+    <field type="CharField" name="name">Indre</field>
+  </object>
+  <object pk="37" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">24</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">24</field>
+    <field type="CharField" name="name">Indre-et-Loire</field>
+  </object>
+  <object pk="38" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">82</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">84</field>
+    <field type="CharField" name="name">Isère</field>
+  </object>
+  <object pk="39" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">43</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">27</field>
+    <field type="CharField" name="name">Jura</field>
+  </object>
+  <object pk="40" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">72</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">75</field>
+    <field type="CharField" name="name">Landes</field>
+  </object>
+  <object pk="41" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">24</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">24</field>
+    <field type="CharField" name="name">Loir-et-Cher</field>
+  </object>
+  <object pk="42" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">82</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">84</field>
+    <field type="CharField" name="name">Loire</field>
+  </object>
+  <object pk="43" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">83</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">84</field>
+    <field type="CharField" name="name">Haute-Loire</field>
+  </object>
+  <object pk="44" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">52</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">52</field>
+    <field type="CharField" name="name">Loire-Atlantique</field>
+  </object>
+  <object pk="45" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">24</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">24</field>
+    <field type="CharField" name="name">Loiret</field>
+  </object>
+  <object pk="46" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">73</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">76</field>
+    <field type="CharField" name="name">Lot</field>
+  </object>
+  <object pk="47" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">72</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">75</field>
+    <field type="CharField" name="name">Lot-et-Garonne</field>
+  </object>
+  <object pk="48" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">91</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">76</field>
+    <field type="CharField" name="name">Lozère</field>
+  </object>
+  <object pk="49" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">52</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">52</field>
+    <field type="CharField" name="name">Maine-et-Loire</field>
+  </object>
+  <object pk="50" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">25</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">28</field>
+    <field type="CharField" name="name">Manche</field>
+  </object>
+  <object pk="51" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">21</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">44</field>
+    <field type="CharField" name="name">Marne</field>
+  </object>
+  <object pk="52" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">21</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">44</field>
+    <field type="CharField" name="name">Haute-Marne</field>
+  </object>
+  <object pk="53" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">52</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">52</field>
+    <field type="CharField" name="name">Mayenne</field>
+  </object>
+  <object pk="54" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">41</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">44</field>
+    <field type="CharField" name="name">Meurthe-et-Moselle</field>
+  </object>
+  <object pk="55" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">41</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">44</field>
+    <field type="CharField" name="name">Meuse</field>
+  </object>
+  <object pk="56" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">53</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">53</field>
+    <field type="CharField" name="name">Morbihan</field>
+  </object>
+  <object pk="57" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">41</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">44</field>
+    <field type="CharField" name="name">Moselle</field>
+  </object>
+  <object pk="58" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">26</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">27</field>
+    <field type="CharField" name="name">Nièvre</field>
+  </object>
+  <object pk="59" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">31</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">32</field>
+    <field type="CharField" name="name">Nord</field>
+  </object>
+  <object pk="60" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">22</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">32</field>
+    <field type="CharField" name="name">Oise</field>
+  </object>
+  <object pk="61" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">25</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">28</field>
+    <field type="CharField" name="name">Orne</field>
+  </object>
+  <object pk="62" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">31</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">32</field>
+    <field type="CharField" name="name">Pas-de-Calais</field>
+  </object>
+  <object pk="63" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">83</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">84</field>
+    <field type="CharField" name="name">Puy-de-Dôme</field>
+  </object>
+  <object pk="64" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">72</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">75</field>
+    <field type="CharField" name="name">Pyrénées-Atlantiques</field>
+  </object>
+  <object pk="65" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">73</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">76</field>
+    <field type="CharField" name="name">Hautes-Pyrénées</field>
+  </object>
+  <object pk="66" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">91</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">76</field>
+    <field type="CharField" name="name">Pyrénées-Orientales</field>
+  </object>
+  <object pk="67" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">42</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">44</field>
+    <field type="CharField" name="name">Bas-Rhin</field>
+  </object>
+  <object pk="68" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">42</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">44</field>
+    <field type="CharField" name="name">Haut-Rhin</field>
+  </object>
+  <object pk="69" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">82</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">84</field>
+    <field type="CharField" name="name">Rhône</field>
+  </object>
+  <object pk="70" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">43</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">27</field>
+    <field type="CharField" name="name">Haute-Saône</field>
+  </object>
+  <object pk="71" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">26</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">27</field>
+    <field type="CharField" name="name">Saône-et-Loire</field>
+  </object>
+  <object pk="72" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">52</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">52</field>
+    <field type="CharField" name="name">Sarthe</field>
+  </object>
+  <object pk="73" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">82</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">84</field>
+    <field type="CharField" name="name">Savoie</field>
+  </object>
+  <object pk="74" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">82</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">84</field>
+    <field type="CharField" name="name">Haute-Savoie</field>
+  </object>
+  <object pk="75" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">11</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">11</field>
+    <field type="CharField" name="name">Paris</field>
+  </object>
+  <object pk="76" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">23</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">28</field>
+    <field type="CharField" name="name">Seine-Maritime</field>
+  </object>
+  <object pk="77" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">11</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">11</field>
+    <field type="CharField" name="name">Seine-et-Marne</field>
+  </object>
+  <object pk="78" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">11</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">11</field>
+    <field type="CharField" name="name">Yvenlines</field>
+  </object>
+  <object pk="79" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">54</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">75</field>
+    <field type="CharField" name="name">Deux-Sèvres</field>
+  </object>
+  <object pk="80" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">22</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">32</field>
+    <field type="CharField" name="name">Somme</field>
+  </object>
+  <object pk="81" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">73</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">76</field>
+    <field type="CharField" name="name">Tarn</field>
+  </object>
+  <object pk="82" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">73</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">76</field>
+    <field type="CharField" name="name">Tarn-et-Garonne</field>
+  </object>
+  <object pk="83" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">93</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">93</field>
+    <field type="CharField" name="name">Var</field>
+  </object>
+  <object pk="84" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">93</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">93</field>
+    <field type="CharField" name="name">Vaucluse</field>
+  </object>
+  <object pk="85" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">52</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">52</field>
+    <field type="CharField" name="name">Vendée</field>
+  </object>
+  <object pk="86" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">54</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">75</field>
+    <field type="CharField" name="name">Vienne</field>
+  </object>
+  <object pk="87" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">74</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">75</field>
+    <field type="CharField" name="name">Haute-Vienne</field>
+  </object>
+  <object pk="88" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">41</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">44</field>
+    <field type="CharField" name="name">Vosges</field>
+  </object>
+  <object pk="89" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">26</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">27</field>
+    <field type="CharField" name="name">Yonne</field>
+  </object>
+  <object pk="90" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">43</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">27</field>
+    <field type="CharField" name="name">Territoire de Belfort</field>
+  </object>
+  <object pk="91" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">11</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">11</field>
+    <field type="CharField" name="name">Essonne</field>
+  </object>
+  <object pk="92" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">11</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">11</field>
+    <field type="CharField" name="name">Hauts-de-Seine</field>
+  </object>
+  <object pk="93" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">11</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">11</field>
+    <field type="CharField" name="name">Seine-Saint-Denis </field>
+  </object>
+  <object pk="94" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">11</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">11</field>
+    <field type="CharField" name="name">Val-de-Marne</field>
+  </object>
+  <object pk="95" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">11</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">11</field>
+    <field type="CharField" name="name">Val-d'Oise</field>
+  </object>
+  <object pk="971" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">01</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">01</field>
+    <field type="CharField" name="name">Guadeloupe</field>
+  </object>
+  <object pk="972" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">02</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">02</field>
+    <field type="CharField" name="name">Martinique</field>
+  </object>
+  <object pk="973" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">03</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">03</field>
+    <field type="CharField" name="name">Guyane</field>
+  </object>
+  <object pk="974" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">04</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">04</field>
+    <field type="CharField" name="name">La Réunion</field>
+  </object>
+  <object pk="976" model="french_zones.department">
+    <field to="french_zones.region" name="region" rel="ManyToOneRel">04</field>
+    <field to="french_zones.region2016" name="region_2016" rel="ManyToOneRel">04</field>
+    <field type="CharField" name="name">Mayotte</field>
+  </object>
+</django-objects>
