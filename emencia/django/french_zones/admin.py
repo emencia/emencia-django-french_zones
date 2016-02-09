@@ -26,8 +26,8 @@ class RegionAdmin(Region2016Admin):
 
 class DepartmentAdmin(admin.ModelAdmin):
     search_fields = ('name', 'code')
-    list_display = ('name', 'code', 'region2016', 'region')
-    fields = ('region2016', 'code', 'name', 'region')
+    list_display = ('name', 'code', 'region_2016', 'region')
+    fields = ('region_2016', 'code', 'name', 'region')
     actions_on_top = False
     actions_on_bottom = True
 
