@@ -10,6 +10,8 @@ from emencia.django.french_zones.utils import get_department_from_postal_code
 
 class UtilsTestCase(TestCase):
 
+    fixtures = ['initial_data.xml', '2016_evolution_data.xml',]
+
     def test_get_department_from_postal_code(self):
         self.assertRaises(ValueError, get_department_from_postal_code, '')
         self.assertRaises(ValueError, get_department_from_postal_code, '1234')
