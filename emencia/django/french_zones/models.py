@@ -12,8 +12,8 @@ class Region2016(models.Model):
         return self.name
 
     class Meta:
-        verbose_name = _('region')
-        verbose_name_plural = _('regions')
+        verbose_name = _('region 2016')
+        verbose_name_plural = _('regions 2016')
         ordering = ('name',)
         db_table = "french_zones_region_2016"
 
