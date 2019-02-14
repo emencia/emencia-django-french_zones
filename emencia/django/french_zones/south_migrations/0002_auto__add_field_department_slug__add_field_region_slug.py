@@ -1,27 +1,31 @@
 # -*- coding: utf-8 -*-
 from south.utils import datetime_utils as datetime
 from south.db import db
-from south.v2 import DataMigration
+from south.v2 import SchemaMigration
 from django.db import models
-from django.utils.text import slugify
 
 
-class Migration(DataMigration):
+class Migration(SchemaMigration):
 
     def forwards(self, orm):
-        "Write your forwards methods here."
-        # Note: Don't use "from appname.models import ModelName". 
-        # Use orm.ModelName to refer to models in this application,
-        # and orm['appname.ModelName'] for models in other applications.
-        for dep in orm.Department.objects.all():
-            dep.slug = slugify(dep.name)
-            dep.save()
-        for reg in orm.Region.objects.all():
-            reg.slug = slugify(reg.name)
-            reg.save()
+        # Adding field 'Department.slug'
+        db.add_column(u'french_zones_department', 'slug',
+                      self.gf('django.db.models.fields.SlugField')(default='', max_length=128, blank=True),
+                      keep_default=False)
+
+        # Adding field 'Region.slug'
+        db.add_column(u'french_zones_region', 'slug',
+                      self.gf('django.db.models.fields.SlugField')(default='', max_length=128, blank=True),
+                      keep_default=False)
+
 
     def backwards(self, orm):
-        "Write your backwards methods here."
+        # Deleting field 'Department.slug'
+        db.delete_column(u'french_zones_department', 'slug')
+
+        # Deleting field 'Region.slug'
+        db.delete_column(u'french_zones_region', 'slug')
+
 
     models = {
         u'french_zones.department': {
@@ -40,4 +44,3 @@ class Migration(DataMigration):
     }
 
     complete_apps = ['french_zones']
-    symmetrical = True

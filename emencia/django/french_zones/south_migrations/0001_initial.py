@@ -12,7 +12,6 @@ class Migration(SchemaMigration):
         db.create_table(u'french_zones_region', (
             ('code', self.gf('django.db.models.fields.CharField')(max_length=2, primary_key=True)),
             ('name', self.gf('django.db.models.fields.CharField')(max_length=128)),
-            ('slug', self.gf('django.db.models.fields.SlugField')(max_length=128, blank=True)),
         ))
         db.send_create_signal(u'french_zones', ['Region'])
 
@@ -21,7 +20,6 @@ class Migration(SchemaMigration):
             ('region', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['french_zones.Region'])),
             ('code', self.gf('django.db.models.fields.CharField')(max_length=3, primary_key=True)),
             ('name', self.gf('django.db.models.fields.CharField')(max_length=128)),
-            ('slug', self.gf('django.db.models.fields.SlugField')(max_length=128, blank=True)),
         ))
         db.send_create_signal(u'french_zones', ['Department'])
 
@@ -39,14 +37,12 @@ class Migration(SchemaMigration):
             'Meta': {'ordering': "('code',)", 'object_name': 'Department'},
             'code': ('django.db.models.fields.CharField', [], {'max_length': '3', 'primary_key': 'True'}),
             'name': ('django.db.models.fields.CharField', [], {'max_length': '128'}),
-            'region': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['french_zones.Region']"}),
-            'slug': ('django.db.models.fields.SlugField', [], {'max_length': '128', 'blank': 'True'})
+            'region': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['french_zones.Region']"})
         },
         u'french_zones.region': {
             'Meta': {'ordering': "('name',)", 'object_name': 'Region'},
             'code': ('django.db.models.fields.CharField', [], {'max_length': '2', 'primary_key': 'True'}),
-            'name': ('django.db.models.fields.CharField', [], {'max_length': '128'}),
-            'slug': ('django.db.models.fields.SlugField', [], {'max_length': '128', 'blank': 'True'})
+            'name': ('django.db.models.fields.CharField', [], {'max_length': '128'})
         }
     }
 
