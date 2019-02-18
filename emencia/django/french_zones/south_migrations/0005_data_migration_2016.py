@@ -41,9 +41,15 @@ REGION_TRANSLATION_DICT = {
 
 
 def region_2016_from_region_2015(region_2015):
-    code_2016 = REGION_TRANSLATION_DICT[region_2015.code]
-    region_2016 = Region2016.objects.get(code=code_2016)
-    return region_2016
+    try:
+        code_2016 = REGION_TRANSLATION_DICT[region_2015.code]
+        region_2016 = Region2016.objects.get(code=code_2016)
+        return region_2016
+    except KeyError:
+        region_2016 = Region2016(code=region_2015.code, name=region_2015.name,
+                                 slug=region_2015.slug)
+        region_2016.save()
+        return region_2016
 
 
 class Migration(SchemaMigration):
